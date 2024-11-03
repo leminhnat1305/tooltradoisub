@@ -4,6 +4,7 @@ from datetime import datetime
 import requests,json
 import uuid
 from time import sleep
+System.Clear()
 van = "dz"
 listjob = []
 def logo():
