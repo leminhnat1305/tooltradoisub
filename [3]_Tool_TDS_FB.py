@@ -6,7 +6,6 @@ import uuid
 from time import sleep
 van = "dz"
 listjob = []
- os.system("cls" if os.name == "nt" else "clear")
 def logo():
 	print ('\033[1;34m ███╗░░░███╗░░░░░███╗░░░██╗██╗░░██╗░█████╗░████████╗░░')
 	print ('\033[1;37m ████╗░████║░░░░░████╗░░██║██║░░██║██╔══██╗╚══██╔══╝░░')
