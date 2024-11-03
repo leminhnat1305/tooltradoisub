@@ -4,9 +4,9 @@ from datetime import datetime
 import requests,json
 import uuid
 from time import sleep
-System.Clear()
 van = "dz"
 listjob = []
+ os.system("cls" if os.name == "nt" else "clear")
 def logo():
 	print ('\033[1;34m ███╗░░░███╗░░░░░███╗░░░██╗██╗░░██╗░█████╗░████████╗░░')
 	print ('\033[1;37m ████╗░████║░░░░░████╗░░██║██║░░██║██╔══██╗╚══██╔══╝░░')
@@ -16,10 +16,8 @@ def logo():
 	print ('\033[1;37m ╚═╝░░░░░╚═╝░░░░░╚═╝░░╚═══╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░')
 	print ('\033[1;31m────────────────────────────────────────────────────────────')
 	print ('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;33mTOOL TDS FB ')
-	print ('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;35mADMIN: \033[1;36mAN ORIN ')
-	print ('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;36mFB: \033[1;31manorintool')
-	print ('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;32mBOX SUPPORT: \033[1;37mhttps://zalo.me/g/dpfbxq529 ')
-	print ('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;34mYOUTUBE: \033[1;37mhttps://youtube.com/@AnOrinTool403 ')
+	print ('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;35mADMIN: \033[1;36mM-Nhat ')
+	print ('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;36mFB: \033[1;31mLe Minh Nhật')
 	print ('\033[1;31m────────────────────────────────────────────────────────────')
 
 def cam_xuc(id_post,ck,loai): 
